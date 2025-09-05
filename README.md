@@ -1,0 +1,1 @@
+This is a simple graphing tool intended to imitate the functionality of desmos.com
