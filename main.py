@@ -42,7 +42,7 @@ def Loop(loop_should_break: bool) -> bool:
 
     q = input("")
 
-    if q == "q:":
+    if q == ":q":
         loop_should_break = True
 
     return loop_should_break
