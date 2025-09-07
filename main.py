@@ -9,9 +9,6 @@ ORIGO: int = 0
 # renders a coordinate system and optionally a graph based on a k and m value
 def Render(k: float | None = None, m: float | None = None):
 
-    if (k is not None) and (m is not None):
-        print(f"k: {k}\n\nm: {m}\n")
-
     for x in range(MAX_X + 1, ORIGO, -1):
         for y in range(ORIGO, MAX_Y + 1, 1):
             if x == 1 and y == 0:
